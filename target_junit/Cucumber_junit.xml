@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="14.973877">
+<testcase classname="Test Sign in functionality of githu.com website" name="User should be able to sign in with correct credentials" time="12.43785">
+<system-out><![CDATA[Given User is on the github homepage........................................passed
+When user clicks on "signin" link...........................................passed
+And user enters SigIn credentials as "nyasmin" and "INCORRECTPWD"...........passed
+And user clicks on "signin" button..........................................passed
+Then user should be able to see "Incorrect username or password." error message.passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Sign in functionality of githu.com website" name="User should be able to sign in with correct credentials 2" time="2.536027">
+<system-out><![CDATA[Given User is on the github homepage........................................passed
+When user clicks on "signin" link...........................................passed
+And user enters SigIn credentials as "nyasmin123" and "Password@1"..........passed
+And user clicks on "signin" button..........................................passed
+Then user should be able to see "Incorrect username or password." error message.passed
+]]></system-out>
+</testcase>
+</testsuite>

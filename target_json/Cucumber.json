@@ -1,0 +1,228 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 29,
+        "name": "User should be able to sign in with correct credentials",
+        "description": "",
+        "id": "test-sign-in-functionality-of-githu.com-website;user-should-be-able-to-sign-in-with-correct-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10178002353,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the github homepage",
+            "match": {
+              "location": "gitHub_SignIn_stepDefination.user_is_on_the_github_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 701040975,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks on \"signin\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "signin",
+                  "offset": 16
+                }
+              ],
+              "location": "gitHub_SignIn_stepDefination.user_clicks_on_link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 160287750,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enters SigIn credentials as \"nyasmin\" and \"INCORRECTPWD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nyasmin",
+                  "offset": 34
+                },
+                {
+                  "val": "INCORRECTPWD",
+                  "offset": 48
+                }
+              ],
+              "location": "gitHub_SignIn_stepDefination.user_enters_SigIn_credentials_as_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1204531864,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user clicks on \"signin\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "signin",
+                  "offset": 16
+                }
+              ],
+              "location": "gitHub_SignIn_stepDefination.user_clicks_on_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193986906,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user should be able to see \"Incorrect username or password.\" error message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Incorrect username or password.",
+                  "offset": 28
+                }
+              ],
+              "location": "gitHub_SignIn_stepDefination.user_should_be_able_to_see_error_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@ddInvalidLogin"
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "User should be able to sign in with correct credentials",
+        "description": "",
+        "id": "test-sign-in-functionality-of-githu.com-website;user-should-be-able-to-sign-in-with-correct-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 905037359,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the github homepage",
+            "match": {
+              "location": "gitHub_SignIn_stepDefination.user_is_on_the_github_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 703786207,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks on \"signin\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "signin",
+                  "offset": 16
+                }
+              ],
+              "location": "gitHub_SignIn_stepDefination.user_clicks_on_link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 173363748,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enters SigIn credentials as \"nyasmin123\" and \"Password@1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nyasmin123",
+                  "offset": 34
+                },
+                {
+                  "val": "Password@1",
+                  "offset": 51
+                }
+              ],
+              "location": "gitHub_SignIn_stepDefination.user_enters_SigIn_credentials_as_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 651424647,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user clicks on \"signin\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "signin",
+                  "offset": 16
+                }
+              ],
+              "location": "gitHub_SignIn_stepDefination.user_clicks_on_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102415198,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user should be able to see \"Incorrect username or password.\" error message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Incorrect username or password.",
+                  "offset": 28
+                }
+              ],
+              "location": "gitHub_SignIn_stepDefination.user_should_be_able_to_see_error_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@ddInvalidLogin"
+          }
+        ]
+      }
+    ],
+    "name": "Test Sign in functionality of githu.com website",
+    "description": "",
+    "id": "test-sign-in-functionality-of-githu.com-website",
+    "keyword": "Feature",
+    "uri": "gitHub_SignIn.feature"
+  }
+]
